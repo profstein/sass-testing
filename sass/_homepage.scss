@@ -31,4 +31,15 @@ a{
           border-radius: $radius;
 }
 
-.box { @include border-radius(10px); }
+.box { 
+    @include border-radius(10px); //10px border radius
+    border: 2px solid blue;
+    padding: 10px;
+}
+
+.rounded{
+    @include border-radius(60px); //60px border radius
+    border: 2px solid blue;
+    padding: 10px;
+    
+}
